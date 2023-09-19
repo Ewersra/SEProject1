@@ -18,6 +18,7 @@ conda activate project1_env
 
 ##
 Run the program on the command line
+##
 The given url for this is provided, and goes to r/mildlyinteresting post: "They have baguette vending machines in France."
 
 ```
