@@ -1,19 +1,23 @@
-#Project 1 installation information
+#
+Project 1 installation information
 
-##Clone the Repo
+##
+Clone the Repo
 
 ```
 git clone https://github.com/Ewersra/SEProject1
 ```
 
-##Install the Conda Environment, activate it
+##
+Install the Conda Environment, activate it
 
 ```
 conda env update -name project1_env --file requirements.yaml
 conda activate project1_env
 ```
 
-##Run the program on the command line
+##
+Run the program on the command line
 
 ```
 python Project1.py https://www.reddit.com/r/mildlyinteresting/comments/16lr7xk/they_have_baguette_vending_machines_in_france/
