@@ -1,5 +1,5 @@
 #
-Project 1 installation information \n
+Project 1 installation information <br>
 The given url for this is provided, and goes to r/mildlyinteresting post: "They have baguette vending machines in France."
 
 ##
