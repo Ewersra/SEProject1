@@ -1,5 +1,6 @@
 #
-Project 1 installation information
+Project 1 installation information \n
+The given url for this is provided, and goes to r/mildlyinteresting post: "They have baguette vending machines in France."
 
 ##
 Clone the Repo
@@ -18,8 +19,6 @@ conda activate project1_env
 
 ##
 Run the program on the command line
-##
-The given url for this is provided, and goes to r/mildlyinteresting post: "They have baguette vending machines in France."
 
 ```
 python Project1.py https://www.reddit.com/r/mildlyinteresting/comments/16lr7xk/they_have_baguette_vending_machines_in_france/
