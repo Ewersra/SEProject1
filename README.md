@@ -21,5 +21,5 @@ conda activate project1_env
 Run the program on the command line
 
 ```
-python Project1.py https://www.reddit.com/r/mildlyinteresting/comments/16lr7xk/they_have_baguette_vending_machines_in_france/
+python Project1.py https://old.reddit.com/r/mildlyinteresting/comments/16lr7xk/they_have_baguette_vending_machines_in_france/
 ``` 
