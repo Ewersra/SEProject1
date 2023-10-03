@@ -33,7 +33,7 @@ Run the second program on the command line
 python Project2.py output.txt
 ```
 
-if Reddit blocked program one from running, an html file of the page is provided to use for project two, if it is needed, execute this instead:
+if Reddit blocked program one from scraping the page, an html file of the page is provided to use for project two, if it is needed, execute this instead:
 ```
 python Project2.py html.txt
 ```
