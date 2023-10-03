@@ -18,8 +18,24 @@ conda activate project1_env
 ```
 
 ##
-Run the program on the command line
+Run the first program on the command line
 
 ```
 python Project1.py https://old.reddit.com/r/mildlyinteresting/comments/16lr7xk/they_have_baguette_vending_machines_in_france/
 ``` 
+
+The program will output the scraped page to output.txt
+
+##
+Run the second program on the command line
+
+```
+python Project2.py output.txt
+```
+
+if Reddit blocked program one from running, an html file of the page is provided to use for project two, if it is needed, execute this instead:
+```
+python Project2.py html.txt
+```
+
+the output from program two will be comments.txt
