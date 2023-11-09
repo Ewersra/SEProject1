@@ -4,7 +4,7 @@
 import openai
 
 #key to the opanai API
-openai.api_key = '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'
+openai.api_key = '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'
 
 #open comments file (from Rylie's project 3) and turns it into a list
 file = open("comments.txt", "r")
