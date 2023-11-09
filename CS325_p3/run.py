@@ -2,7 +2,7 @@ import sys
 from module_1.getsite import getSite
 from module_2.getdata.py import getHTML
 from module_3.getcomments.py import getCleanData
-from module_4.project4 import
+from module_4.getSentiments import getSentiments
 
 #get the reddit URL from the command line
 url = sys.argv[1]
@@ -17,4 +17,4 @@ data = getdata.getHTML(website)
 comments = getcomments.getCleanData(data)
 
 #sends the comments to project4, which sends a prompt with the comments to ChatGPT to get the sentiments, returns a file of sentiments
-sentiments = 
+sentiments = getSentiments.getSentiments(comments)
