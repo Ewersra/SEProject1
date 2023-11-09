@@ -13,7 +13,7 @@ file.close()
 comments = text.split('\n\n')
 '''
 
-def getSentiments(comments):
+def getSentiments(comments, outpath):
 #takes the comments list and add the prompt to it
     prompts = []
 #for i in range(0, len(comments)):
@@ -28,7 +28,7 @@ def getSentiments(comments):
 )
 
 #takes the responses and puts them in its own file
-    file = open("sentiments.txt", "w")
+    file = open(outpath, "w")
     for i in range (0, len(response.choices)):
         file.write(response.choices[i].text.strip())
         file.write(' ')
