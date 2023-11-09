@@ -1,0 +1,29 @@
+Project 4 Information
+
+#
+Project 1 installation information <br>
+The given url for this is provided, and goes to r/mildlyinteresting post: "They have baguette vending machines in France."
+
+##
+Clone the Repo
+
+```
+git clone https://github.com/Ewersra/SEProject1
+```
+
+##
+Install the Conda Environment, activate it
+
+```
+conda env update -name project1_env --file requirements.yaml
+conda activate project1_env
+```
+
+##
+Run the program on the command line
+
+```
+python run.py https://old.reddit.com/r/mildlyinteresting/comments/16lr7xk/they_have_baguette_vending_machines_in_france/
+``` 
+
+The final ouput of the program will be in a file called sentiments
