@@ -5,13 +5,7 @@ import openai
 
 #key to the opanai API
 openai.api_key = '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'
-'''
-#open comments file (from Rylie's project 3) and turns it into a list
-file = open("comments.txt", "r")
-text = file.read()
-file.close()
-comments = text.split('\n\n')
-'''
+
 
 def getSentiments(comments, outpath):
 #takes the comments list and add the prompt to it
