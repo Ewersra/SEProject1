@@ -41,3 +41,11 @@ python run.py https://old.reddit.com/r/mildlyinteresting/comments/16lr7xk/they_h
 ``` 
 
 The final ouput of the program will be in a file called sentiments
+
+
+##
+If main project does not work, we provided just the open AI module on it's own to show we can get the sentiments of the comments from Open AI. It's in it's own folder called "OpenAI_stuff"
+
+```
+python project4.py 
+``` 
