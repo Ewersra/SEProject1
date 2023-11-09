@@ -30,7 +30,7 @@ Go to openai.com, click login, and then sign up
 Create an Open AI API Key
 
 ```
-Log in to your open AI account, click on your profile icon to open a dropdown menu, select API Keys, select "+ Create new secret key"
+Log in to your open AI account, click on your profile icon to open a dropdown menu, select API Keys, select "+ Create new secret key", copy the key and save it somewhere for safe keeping, use it in your code
 ```
 
 ##
