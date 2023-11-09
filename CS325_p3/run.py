@@ -17,4 +17,4 @@ data = getdata.getHTML(website)
 comments = getcomments.getCleanData(data)
 
 #sends the comments to project4, which sends a prompt with the comments to ChatGPT to get the sentiments, returns a file of sentiments
-sentiments = getSentiments.getSentiments(comments)
+sentiments = getSentiments.getSentiments(comments, "data/sentiments/sentiments.txt")
