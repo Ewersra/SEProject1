@@ -26,7 +26,7 @@ response = openai.Completion.create(
 )
 
 #takes the responses and puts them in its own file
-file = open("sentiments", "w")
+file = open("sentiments.txt", "w")
 for i in range (0, len(response.choices)):
     file.write(response.choices[i].text.strip())
     file.write(' ')
