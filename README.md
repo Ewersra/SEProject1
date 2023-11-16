@@ -41,3 +41,4 @@ python run.py
 ``` 
 
 The final ouput of the program will be in files called sentiments1, sentiments2, sentiments3, sentiments4, sentiments5. All located in the Data/sentiments folder
+(Project 5 rubric said to put it in data -> processed, but the previous rubric said to give the sentiments their own folder in data? We just kept to the rubric for project4)
