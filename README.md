@@ -1,5 +1,7 @@
+Project 4 Information
+
 #
-Project 1 installation information <br>
+Project 4 installation information <br>
 The given url for this is provided, and goes to r/mildlyinteresting post: "They have baguette vending machines in France."
 
 ##
@@ -18,24 +20,24 @@ conda activate project1_env
 ```
 
 ##
-Run the first program on the command line
+Create an Open AI account
 
 ```
-python Project1.py https://old.reddit.com/r/mildlyinteresting/comments/16lr7xk/they_have_baguette_vending_machines_in_france/
-``` 
-
-The program will output the scraped page to output.txt
+Go to openai.com, click login, and then sign up
+```
 
 ##
-Run the second program on the command line
+Create an Open AI API Key
 
 ```
-python Project2.py output.txt
+Log in to your open AI account, click on your profile icon to open a dropdown menu, select API Keys, select "+ Create new secret key", copy the key and save it somewhere for safe keeping, use it in your code
 ```
 
-if Reddit blocked program one from scraping the page, an html file of the page is provided to use for project two, if it is needed, execute this instead:
-```
-python Project2.py html.txt
-```
+##
+Run the program on the command line
 
-the output from program two will be comments.txt
+```
+python run.py urls.txt
+``` 
+
+The final ouput of the program will be in files called sentiments1, sentiments2, sentiments3, sentiments4, sentiments5
