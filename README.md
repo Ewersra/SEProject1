@@ -35,6 +35,7 @@ Log in to your open AI account, click on your profile icon to open a dropdown me
 
 ##
 Run the program on the command line
+urls.txt can be found in the Data folder
 
 ```
 python run.py urls.txt
