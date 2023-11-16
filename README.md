@@ -1,7 +1,7 @@
-Project 4 Information
+Project 5 Information
 
 #
-Project 4 installation information <br>
+Project 5 installation information <br>
 
 ##
 Clone the Repo
@@ -37,7 +37,7 @@ Run the program on the command line
 urls.txt can be found in the Data folder
 
 ```
-python run.py urls.txt
+python run.py
 ``` 
 
 The final ouput of the program will be in files called sentiments1, sentiments2, sentiments3, sentiments4, sentiments5. All located in the Data/sentiments folder
