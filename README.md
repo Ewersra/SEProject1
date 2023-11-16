@@ -2,7 +2,6 @@ Project 4 Information
 
 #
 Project 4 installation information <br>
-The given url for this is provided, and goes to r/mildlyinteresting post: "They have baguette vending machines in France."
 
 ##
 Clone the Repo
