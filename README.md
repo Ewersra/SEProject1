@@ -41,4 +41,4 @@ urls.txt can be found in the Data folder
 python run.py urls.txt
 ``` 
 
-The final ouput of the program will be in files called sentiments1, sentiments2, sentiments3, sentiments4, sentiments5
+The final ouput of the program will be in files called sentiments1, sentiments2, sentiments3, sentiments4, sentiments5. All located in the Data/sentiments folder
