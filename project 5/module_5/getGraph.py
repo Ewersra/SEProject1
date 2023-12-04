@@ -19,6 +19,8 @@ def getGraph(list, url, outpath):
     
     colors = ['blue', 'red', 'green', 'yellow', 'hotpink', 'cyan', 'orange', 'purple', 'brown', 'black'] #colors for the bars in the graph
 
+    plt.figure()
+
     x = plt.bar(sorted.index, sorted.values, color = colors, label = sorted.index) #creates the plot
     plt.title(url4) #uses the sanitized url as the title
     plt.xlabel('Sentiments') #creates the bottom label for the plot
