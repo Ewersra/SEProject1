@@ -35,7 +35,7 @@ copy the key and save it somewhere for safe keeping, add it to the code in modul
 
 ##
 Run the program on the command line
-urls.txt can be found in the Data folder
+(urls.txt can be found in the Data folder)
 
 ```
 python run.py
