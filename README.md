@@ -29,7 +29,7 @@ Go to openai.com, click login, and then sign up
 Create an Open AI API Key
 
 ```
-Log in to your open AI account, click on your profile icon to open a dropdown menu, select API Keys, select "+ Create new secret key", copy the key and save it somewhere for safe keeping, use it in your code
+Log in to your open AI account, click on your profile icon to open a dropdown menu, select API Keys, select "+ Create new secret key", copy the key and save it somewhere for safe keeping, add it to the code in module4/getSentiments.py after "openai.api_key ="
 ```
 
 ##
@@ -39,6 +39,3 @@ urls.txt can be found in the Data folder
 ```
 python run.py
 ``` 
-
-The final ouput of the program will be in files called sentiments1, sentiments2, sentiments3, sentiments4, sentiments5. All located in the Data/sentiments folder
-(Project 5 rubric said to put it in data -> processed, but the previous rubric said to give the sentiments their own folder in data? We just kept to the rubric for project4)
