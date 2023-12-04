@@ -1,7 +1,7 @@
-Project 5 Information
+Project 6 Information
 
 #
-Project 5 installation information <br>
+Project 6 installation information <br>
 
 ##
 Clone the Repo
