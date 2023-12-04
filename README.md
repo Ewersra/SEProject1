@@ -30,7 +30,7 @@ Create an Open AI API Key
 
 ```
 Log in to your open AI account, click on your profile icon to open a dropdown menu, select API Keys, select "+ Create new secret key" (verify phone number first if needed),
-copy the key and save it somewhere for safe keeping, add it to the code in module4/getSentiments.py after "openai.api_key ="
+copy the key and save it somewhere for safe keeping, add it to the code in run.py where it says "key =" (a key is included in the code already)
 ```
 
 ##
@@ -39,4 +39,8 @@ Run the program on the command line
 
 ```
 python run.py
-``` 
+```
+
+##
+run.py will run a loop, sending each link to module_1 to get the website data, to module_2 to get the page HTML, module_3 to get the comments and remove HTML tages, module_4 sends the comments to ChatGPT to get the sentiments, and module_5 creates the graphs. <br>
+The data folder will contain the different outputs: raw will have the page html, processed will have the comments, sentiments will have the sentiment files, and plots will have the graphs.
