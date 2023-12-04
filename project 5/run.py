@@ -14,7 +14,7 @@ text = file.read()
 file.close()
 urls = text.split('\n\n')
 
-for i in range(0, 1):
+for i in range(0, 5):
 
     #sends the url to getsite, which requests the website
     website = getSite(urls[i])
