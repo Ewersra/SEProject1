@@ -9,10 +9,13 @@ def getCleanData(data, outfile):
     outputFile = open(outfile, 'w')
 
     soup = BeautifulSoup(data, 'html.parser')
-    #  comments = soup.find(id="thing_t1_k14hbrh").get_text()
 
-    comments = soup.get_text()
-    print(comments, file = outputFile)
+    comments = soup.find('div', {'class': 'commentarea'})
 
-    print(comments, file = outputFile)
+    comment_content = comments.find_all('div', {'class': 'comment'})
+
+    for comment in comment_content:
+        comment_text = comment.find('div', {'class': 'md'}).text.strip()
+        print(comment_text + '\n', file = outputFile)
+    
     outputFile.close()
