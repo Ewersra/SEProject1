@@ -8,8 +8,6 @@ def getHTML(website, outfile):
     soup = BeautifulSoup(website.content, 'html.parser')
     #open output file
     outputFile = open(outfile, 'w', encoding='utf-8')
-    #remove the html tages and print
-    ##print(soup.prettify(), file = outputFile)
     print(soup, file = outputFile)
     outputFile.close()
     return soup.prettify()
