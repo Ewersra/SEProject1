@@ -14,7 +14,7 @@ file.close()
 urls = text.split('\n\n')
 
 
-key = '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'
+key = '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'
 
 for i in range(0, len(urls)):
 
