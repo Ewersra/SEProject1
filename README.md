@@ -31,6 +31,7 @@ Create an Open AI API Key
 ```
 Log in to your open AI account, click on your profile icon to open a dropdown menu, select API Keys, select "+ Create new secret key" (verify phone number first if needed),
 copy the key and save it somewhere for safe keeping, add it to the code in run.py where it says "key ="
+If the key already in the code does not work, that is because OpenAI disabled it for being "leaked", in which case you must add your own.
 ```
 
 ##
